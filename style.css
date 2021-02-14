@@ -1,0 +1,49 @@
+* {
+    font-family:cursive;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: rgba(0, 0, 0, .1);
+    padding: 1rem;
+}
+header a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #9c0eee;
+
+}
+
+main {
+    padding: 5rem 0;
+    background: #9c0eee;
+    color: white;
+}
+main h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+main p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+main button {
+    width: 110px;
+    height: 40px;
+    margin-top: .7rem;
+    border-radius: 1rem;
+    display: inline-block;
+    font-weight: bold;
+    background: rgb(121, 243, 91);
+    color: blue;
+}
+main button:hover {
+    background: blue;
+    color: rgb(121, 243, 91);
+}
